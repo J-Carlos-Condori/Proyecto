@@ -1,24 +1,41 @@
-import React from "react";
-import Typography from "@mui/material/Typography";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import Peliculas from "../assets/Peliculas.json";
+import ItemList from "./ItemList";
 
 
-const ItemListContainer=({greeting})=>{
+const ItemListContainer=()=>{
+
+  const [items,setItems]=useState([])
+  const params=useParams()
+  console.log(params)
+
+  useEffect(()=>{
+
+    let peticion = new Promise((res)=>{
+      setTimeout(()=>{
+        res(Peliculas);
+      },1500)
+    })
+  
+    peticion
+    .then((respuesta)=>{
+      setItems(respuesta);        
+    })
+  
+    .catch((error)=>{
+      console.log(error);      
+    })
+  },[])
+
   return(
     <>
-    <Typography>
+    <h2>LISTADO</h2>
       <div className="itemlist">
-        <h2>Somos {greeting.titulo}</h2>
-        <p>
-            En {greeting.titulo} encontraras las mejores peliculas
-        </p>
-        <p>
-            Contamos con mas de {greeting.cantidad} mil titulos para que disfrutes  
-        </p>
+        {items.length==0?<h3>Cargando...</h3>:<ItemList items={items}/>}
       </div>
-    </Typography>
     </>
   )
-
 }
 
 export default ItemListContainer;

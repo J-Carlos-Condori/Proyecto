@@ -2,6 +2,7 @@ import React from "react";
 import CartWidget from "./CartWitget";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
 const Navbar=()=>{
 
@@ -9,23 +10,37 @@ const Navbar=()=>{
     <>
       <Typography>
         <header className="header">
-        <a href="_blank">
-          <h1>MOVZ</h1>
-        </a>
+        <Link to="/">
+            <h1>MOVZ</h1>
+        </Link>
             
           <nav>
-            <Button>
-              <a href="_blank">Estrenos</a>
-            </Button>
-            <Button>
-              <a href="_blank">Accion</a>
-            </Button>
-            <Button>
-              <a href="_blank">Animacion</a>
-            </Button>
-            <Button>
-              <a href="_blank">Mi Cuenta</a>
-            </Button>
+            <Link to="/Listado">
+              <Button>
+                <a>Listado</a>
+              </Button>
+            </Link>
+            <Link to="/Listado/Estrenos">
+              <Button>
+                <a>Estrenos</a>
+              </Button>
+            </Link>
+            <Link to="/Listado/Accion">
+              <Button>
+                <a>Accion</a>
+              </Button>
+            </Link>
+            <Link to="/Listado/Animacion">
+              <Button>
+                <a>Animacion</a>
+              </Button>
+            </Link>
+            <Link to="/Mi_Cuenta">
+              <Button>
+                <a>Mi Cuenta</a>
+              </Button>
+            </Link>
+            
             <CartWidget />
           </nav>
         </header>
