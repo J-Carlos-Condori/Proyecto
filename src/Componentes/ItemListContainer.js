@@ -1,40 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Peliculas from "../assets/Peliculas.json";
+import { getProducts } from "./Utils";
 import ItemList from "./ItemList";
 
 
 const ItemListContainer=()=>{
 
-  const [items,setItems]=useState([])
-  const params=useParams()
-  console.log(params)
+  const [items,setItems]=useState([]);
+  const {cat}=useParams();
 
   useEffect(()=>{
 
-    let peticion = new Promise((res)=>{
-      setTimeout(()=>{
-        res(Peliculas);
-      },1500)
-    })
-  
-    peticion
-    .then((respuesta)=>{
-      setItems(respuesta);        
-    })
-  
-    .catch((error)=>{
-      console.log(error);      
-    })
-  },[])
+      getProducts()
+      .then((respuesta) => {
+          setItems(respuesta)
+      })
+      .catch((error) => {
+          console.log(error)
+      })
+}, [cat]) 
 
-  return(
-    <>
-    <h2>LISTADO</h2>
-      <div className="itemlist">
-        {items.length==0?<h3>Cargando...</h3>:<ItemList items={items}/>}
-      </div>
-    </>
+  return (
+    <div>
+        <h2>Productos</h2>
+        {items.length == 0 ? <h1>Cargando...</h1> : <ItemList items={items} />}
+    </div>
   )
 }
 

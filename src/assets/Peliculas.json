@@ -1,72 +1,59 @@
-{
-  "peliculas": [
+[
     {
       "id": 1,
       "nombre": "El sexto sentido",
       "director": "M. Night Shyamalan",
       "clasificacion": "Drama",
       "precio":100,
-      "portada":"https://www.themoviedb.org/t/p/original/wcnLlfQ2USwvyYbd6XgtNEOQfMT.jpg"
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wcnLlfQ2USwvyYbd6XgtNEOQfMT.jpg"
     },
     {
       "id": 2,
       "nombre": "Pulp Fiction",
       "director": "Tarantino",
       "clasificacion": "Acción",
-      "precio":500
+      "precio":500,
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hNcQAuquJxTxl2fJFs1R42DrWcf.jpg"
     },
     {
       "id": 3,
       "nombre": "Todo Sobre Mi Madre",
       "director": "Almodobar",
       "clasificacion": "Drama",
-      "precio":300
+      "precio":300,
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/evvT3HUwoQYoPQXWFO10R6AvhxG.jpg"
     },
     {
       "id": 4,
       "nombre": "300",
       "director": "Zack Snyder",
       "clasificacion": "Acción",
-      "precio":430
+      "precio":430,
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zLQG9fqH01f8eFRAaSUJY7va92x.jpg"
     },
     {
       "id": 5,
       "nombre": "El silencio de los corderos",
       "director": "Jonathan Demme",
       "clasificacion": "Drama",
-      "precio":260
+      "precio":260,
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8FdQQ3cUCs9goEOr1qUFaHackoJ.jpg"
     },
     {
       "id": 6,
       "nombre": "Forrest Gump",
       "director": "Robert Zemeckis",
       "clasificacion": "Comedia",
-      "precio":900
+      "precio":900,
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/azV6hV99lYkdhydsQbJCI6FqMl4.jpg"
     },
     {
       "id": 7,
       "nombre": "Las Hurdes",
       "director": "Luis Buñuel",
       "clasificacion": "Documental",
-      "precio":330
+      "precio":330,
+      "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y8Kw4K2pTooe96fobQTz0RJEq9o.jpg"
     }
-  ],
-  "clasificaciones": [
-    {
-      "nombre": "Drama",
-      "id": 1
-    },
-    {
-      "nombre": "Comedia",
-      "id": 2
-    },
-    {
-      "nombre": "Documental",
-      "id": 3
-    },
-    {
-      "nombre": "Acción",
-      "id": 4
-    }
-  ]
-}
+]
+  

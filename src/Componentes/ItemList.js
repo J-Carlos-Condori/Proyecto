@@ -1,10 +1,30 @@
+import { Card, CardActions, CardContent, Button} from '@mui/material'
 import React from 'react'
 
-const ItemList = () => {
+const ItemList = ({items}) => {
   return (
-    <h3>
-      ItemList
-    </h3>
+    <>
+      {
+        items.map(item=>{
+          return(
+
+            <>
+              <Card>
+                <CardContent>
+                  <div>
+                    <h4>{item.nombre}</h4>
+                  </div>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">DETALLES</Button>
+                </CardActions>
+              </Card>
+            </>
+
+          )
+        })
+      }
+    </>
   )
 }
 
