@@ -1,53 +1,58 @@
 import React from "react";
 import CartWidget from "./CartWitget";
-import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 
-const Navbar=()=>{
+const Navbar = () => {
 
   return (
-    <>
-      <Typography>
-        <header className="header">
-        <Link to="/">
-            <h1>MOVZ</h1>
+
+    <header className="header">
+      <Link to="/">
+        <a className="brand-logo"><h3>MOVZ</h3></a>
+      </Link>
+
+      <div className="Listado right hide-on-med-and-down">
+        <Link to="/Listado">
+          <Button>
+            <a>Listado</a>
+          </Button>
         </Link>
-            
-          <nav>
-            <Link to="/Listado">
-              <Button>
-                <a>Listado</a>
-              </Button>
-            </Link>
-            <Link to="/Listado/Estrenos">
-              <Button>
-                <a>Estrenos</a>
-              </Button>
-            </Link>
-            <Link to="/Listado/Accion">
-              <Button>
-                <a>Accion</a>
-              </Button>
-            </Link>
-            <Link to="/Listado/Animacion">
-              <Button>
-                <a>Animacion</a>
-              </Button>
-            </Link>
-            <Link to="/Mi_Cuenta">
-              <Button>
-                <a>Mi Cuenta</a>
-              </Button>
-            </Link>
-            
+        <Link to="/Listado/Estrenos">
+          <Button>
+            <a>Estrenos</a>
+          </Button>
+        </Link>
+        <Link to="/Listado/Comedia">
+          <Button>
+            <a>Comedia</a>
+          </Button>
+        </Link>
+        <Link to="/Listado/Accion">
+          <Button>
+            <a>Accion</a>
+          </Button>
+        </Link>
+        <Link to="/Listado/Terror">
+          <Button>
+            <a>Terror</a>
+          </Button>
+        </Link>
+        <Link to="/Mi_Cuenta">
+          <Button>
+            <a>Mi Cuenta</a>
+          </Button>
+        </Link>
+
+        <Link to="/Cart">
+          <a>
             <CartWidget />
-          </nav>
-        </header>
-      </Typography>
-    </>
+          </a>
+        </Link>
+      </div>
+    </header>
   )
-  
+
 }
 
 export default Navbar;

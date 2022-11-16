@@ -1,31 +1,15 @@
-import { Card, CardActions, CardContent, Button} from '@mui/material'
-import React from 'react'
+import Item from './Item';
 
-const ItemList = ({items}) => {
+const ItemList = ({ items }) => {
   return (
-    <>
+    <div className='row'>
       {
-        items.map(item=>{
-          return(
-
-            <>
-              <Card>
-                <CardContent>
-                  <div>
-                    <h4>{item.nombre}</h4>
-                  </div>
-                </CardContent>
-                <CardActions>
-                  <Button size="small">DETALLES</Button>
-                </CardActions>
-              </Card>
-            </>
-
-          )
+        items.map((item) => {
+          return <Item {...item} />
         })
       }
-    </>
+    </div >
   )
 }
 
-export default ItemList
+export default ItemList;

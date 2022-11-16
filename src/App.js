@@ -7,15 +7,13 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./styles/estilos.css";
 
-const App=()=>{
+const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Navbar />
-        <Main />
-        <Footer />
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Main />
+      <Footer />
+    </BrowserRouter>
   );
 }
 

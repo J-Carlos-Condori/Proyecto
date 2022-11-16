@@ -11,7 +11,6 @@ a{
 }
 
 .header{
-  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -35,11 +34,74 @@ a{
   min-height: 80vh;
   padding: 1rem 2rem;
   color: #252525;
-  background-color: #666666;
 }
 .itemlist{
   min-height: 20vh;
   padding: 1rem 2rem;
   color: #252525;
   background-color: #666666;
+}
+img{
+  height: 500px;
+}
+.Listado{
+  background-color: #252525;
+}
+
+.container-laPelicula{
+  display: flex;
+}
+
+
+.botonera{
+  display: flex;
+  flex-direction: column;
+}
+
+.botonera__cantidades{
+  display: flex;
+  color: aliceblue;
+  background-color: #252525;
+  justify-content: center;
+  border-radius: 9px;
+  margin: 0px 25rem
+}
+.botonera__compra{
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  
+  background-color: #666666;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 1rem;
+  padding: 0rem 1.5rem;
+}
+
+.itemPortada img{
+  border-radius: 9px;
+}
+
+.itemTexto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+
+  margin: 0rem 2rem;
+}
+
+.itemTexto p{
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.itemTexto h2{
+
+  font-weight: bold;
+  color: aliceblue;
+
 }
