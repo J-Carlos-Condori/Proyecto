@@ -19,6 +19,7 @@ const ItemDetail = () => {
 
                 <div className="itemTexto">
                     <h2>{laPelicula.nombre}</h2>
+                    <h5>{laPelicula.precio}$</h5>
                     <p>{laPelicula.general}</p>
                     <ItemCount />
                 </div>
