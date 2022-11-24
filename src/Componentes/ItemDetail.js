@@ -14,7 +14,8 @@ const ItemDetail = () => {
         <div className="container">
             <div className="container-laPelicula">
                 <div className="itemPortada">
-                    <img src={laPelicula.portada}></img>
+                    <img src={laPelicula.portada} alt="portada"></img>
+
                 </div>
 
                 <div className="itemTexto">

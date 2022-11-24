@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-a{
+/* a{
   text-decoration: none;
   color: #959595;
   font-size: 1rem;
-}
+} */
 
-.header{
+/* .header{
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@ a{
   background-color: #252525;
   color: #959595;
   padding: 1rem 2rem;
-}
+} */
 
 .footer{
   display: flex;
@@ -88,9 +88,6 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
-
   margin: 0rem 2rem;
 }
 

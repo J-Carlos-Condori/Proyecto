@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Item = ({ nombre, portada, precio, id }) => {
     return (
-        <div class="col s12 m3">
+        <div className="col s12 m3">
             <Link to={`/item/${id}`}>
                 <div className="card">
                     <div className="card indigo">

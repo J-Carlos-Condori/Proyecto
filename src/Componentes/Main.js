@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
 import ItemListContainer from "./ItemListContainer";
 import { Route, Routes } from "react-router-dom";
 import Carrito from "./Carrito";
@@ -9,28 +8,26 @@ import ItemDetailContainer from "./ItemDetailContainer";
 export const Main = () => {
   return (
     <>
-      <Typography>
-        <main className="mains grey darken-3">
-          <Routes>
+      <main className="mains grey darken-3">
+        <Routes>
 
-            <Route path="/" element={<h2>HOME</h2>} />
-            <Route path="/Listado" element={<ItemListContainer />} />
+          <Route path="/" element={<h2>HOME</h2>} />
+          <Route path="/Listado" element={<ItemListContainer />} />
 
-            <Route path="/Listado/:cat" element={<ItemListContainer />} />
-            <Route path="/Listado/:cat" element={<ItemListContainer />} />
-            <Route path="/Listado/:cat" element={<ItemListContainer />} />
-            <Route path="/Listado/:cat" element={<ItemListContainer />} />
+          <Route path="/Listado/:cat" element={<ItemListContainer />} />
+          <Route path="/Listado/:cat" element={<ItemListContainer />} />
+          <Route path="/Listado/:cat" element={<ItemListContainer />} />
+          <Route path="/Listado/:cat" element={<ItemListContainer />} />
 
 
-            <Route path="item/:id" element={<ItemDetailContainer />} />
+          <Route path="item/:id" element={<ItemDetailContainer />} />
 
-            <Route path="/Mi_Cuenta" element={<Cuenta />} />
-            <Route path="/Cart" element={<Carrito />} />
+          <Route path="/Mi_Cuenta" element={<Cuenta />} />
+          <Route path="/Cart" element={<Carrito />} />
 
-            <Route path="*" element={<h1>Error 404</h1>} />
-          </Routes>
-        </main>
-      </Typography>
+          <Route path="*" element={<h1>Error 404</h1>} />
+        </Routes>
+      </main>
     </>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import ItemDetail from './ItemDetail'
 
-const ItemDetailContainer = () => {
+const ItemDetailContainer = ({ id }) => {
     return (
         <div>
-            <ItemDetail />
+            <ItemDetail key={id} />
         </div>
     )
 }
