@@ -10,7 +10,7 @@ const ItemCount = () => {
   }
 
   const handleRestar = () => {
-    if (count == 0) {
+    if (count === 0) {
       setCount(count)
     } else {
       setCount(count - 1);
