@@ -1,24 +1,30 @@
 import Peliculas from "../assets/Peliculas.json";
 
-export const getProducts = () => {
+export let lasPeliculas = Peliculas;
 
-    let pedidoPeliculas = new Promise((response) => {
-        setTimeout(() => {
-            response(Peliculas);
-        }, 1500);
-    })
 
-    return pedidoPeliculas
+const generatePromise = (operation, time = 1000) => {
+    return new Promise((respuesta, error) => {
+        respuesta(operation)
+    }, time)
 }
 
 
-export const getProductsByCategoryId = (id) => {
 
-    let pedidoPeliculas = new Promise((response) => {
-        setTimeout(() => {
-            response(Peliculas.filter(item => item.categoria == id));
-        }, 1500);
-    })
 
-    return pedidoPeliculas
+export const getProducts = () => {
+
+}
+generatePromise(lasPeliculas)
+
+
+export const getProductsByCategoryId = (categoria) => {
+
+    generatePromise(lasPeliculas.filter(item => item.categoria === categoria));
+
+}
+
+export const getProductById = (id) => {
+
+    generatePromise(lasPeliculas.find(item => item.id === id))
 }

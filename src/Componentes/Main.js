@@ -20,7 +20,7 @@ export const Main = () => {
           <Route path="/Listado/:cat" element={<ItemListContainer />} />
 
 
-          <Route path="item/:id" element={<ItemDetailContainer />} />
+          <Route path="/item/:id" element={<ItemDetailContainer />} />
 
           <Route path="/Mi_Cuenta" element={<Cuenta />} />
           <Route path="/Cart" element={<Carrito />} />

@@ -3,14 +3,14 @@ import { useState } from "react";
 
 const ItemCount = () => {
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const handleSumar = () => {
     setCount(count + 1);
   }
 
   const handleRestar = () => {
-    if (count === 0) {
+    if (count === 1) {
       setCount(count)
     } else {
       setCount(count - 1);
@@ -27,7 +27,7 @@ const ItemCount = () => {
         <button className='boton' onClick={handleSumar}>+</button>
       </div>
       <div className='botonera__compra'>
-        <button className='boton'>AGREGAR AL CARRITO</button>
+        <button className='boton'>CONFIMAR COMPRA</button>
       </div>
     </div>
   )

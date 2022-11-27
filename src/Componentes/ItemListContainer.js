@@ -13,7 +13,6 @@ const ItemListContainer = () => {
   useEffect(() => {
     if (cat) {
       console.log("EFECTO con categoria")
-
       getProductsByCategoryId(cat)
         .then(respuesta => {
           console.log(respuesta, cat)
@@ -39,7 +38,7 @@ const ItemListContainer = () => {
   return (
     <div>
       <h2>Productos</h2>
-      {items.length == 0 ? <h1>Cargando...</h1> : <ItemList items={items} />}
+      {items.length === 0 ? <h1>Cargando...</h1> : <ItemList items={items} />}
     </div>
   )
 }

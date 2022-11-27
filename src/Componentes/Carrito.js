@@ -6,9 +6,5 @@ const Carrito = () => {
             <h1>CARRITO</h1>
         </>
     )
-
-
 }
-
-
 export default Carrito;
