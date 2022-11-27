@@ -1,17 +1,22 @@
-import React from 'react'
-import { useState } from "react";
+import React, { useContext, useState } from 'react'
+import { contexto } from './ComprasProvider';
 
 const ItemCount = () => {
+
+
+  const valorDelContexto = useContext(contexto)
 
   const [count, setCount] = useState(1);
 
   const handleSumar = () => setCount(count + 1);
-
   const handleRestar = () => count === 1 ? setCount(count) : setCount(count - 1);
+
+
+
 
   const handleAgregarCarrito = () => {
 
-    console.log("hola que hace")
+    console.log(valorDelContexto.cantidad)
   }
 
   return (
