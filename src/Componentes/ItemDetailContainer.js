@@ -1,30 +1,29 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 import ItemDetail from './ItemDetail'
-import { getProductById } from './Utils'
+import { getPeliculaId } from './Utils';
 
 const ItemDetailContainer = () => {
 
-    const [item, setItems] = useState([])
+    const [lasPeliculas, setlasPeliculas] = useState(null);
+    const { id } = useParams();
 
-    const { id } = useParams()
 
     useEffect(() => {
-        if (id) {
-            getProductById(id)
-                .then(Respuesta => {
-                    setItems(Respuesta)
-                })
-                .catch(Error => {
-                    console.log(Error)
-                })
-        }
+        getPeliculaId(id)
+            .then(respuesta => {
+                setlasPeliculas(respuesta)
+            })
     }, [id])
+
+    if (!lasPeliculas) {
+        return null
+    }
 
 
     return (
         <div>
-            <ItemDetail producto={{ ...item }} />
+            {lasPeliculas.length === 0 ? <h1>Cargando...</h1> : <ItemDetail lasPeliculas={lasPeliculas} />}
         </div>
     )
 }

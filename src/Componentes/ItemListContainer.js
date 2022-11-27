@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getProducts, getProductsByCategoryId } from "./Utils";
+import { getProducts, getProductsByCategory } from "./Utils";
 import ItemList from "./ItemList";
 
 
@@ -13,9 +13,9 @@ const ItemListContainer = () => {
   useEffect(() => {
     if (cat) {
       console.log("EFECTO con categoria")
-      getProductsByCategoryId(cat)
+      getProductsByCategory(cat)
         .then(respuesta => {
-          console.log(respuesta, cat)
+          console.table(respuesta, cat)
           setItems(respuesta)
         })
         .catch((error) => {
