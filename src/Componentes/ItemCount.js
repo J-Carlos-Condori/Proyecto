@@ -5,29 +5,24 @@ const ItemCount = () => {
 
   const [count, setCount] = useState(1);
 
-  const handleSumar = () => {
-    setCount(count + 1);
+  const handleSumar = () => setCount(count + 1);
+
+  const handleRestar = () => count === 1 ? setCount(count) : setCount(count - 1);
+
+  const handleAgregarCarrito = () => {
+
+    console.log("hola que hace")
   }
-
-  const handleRestar = () => {
-    if (count === 1) {
-      setCount(count)
-    } else {
-      setCount(count - 1);
-    }
-  }
-
-
 
   return (
-    <div className='botonera'>
+    <div className="botonera">
       <div className="botonera__cantidades">
         <button className='boton' onClick={handleRestar}>-</button>
         <h4>{count}</h4>
         <button className='boton' onClick={handleSumar}>+</button>
       </div>
-      <div className='botonera__compra'>
-        <button className='boton'>CONFIMAR COMPRA</button>
+      <div className="botonera__agregar">
+        <button className='boton' onClick={handleAgregarCarrito}>AGREGAR AL CARRITO</button>
       </div>
     </div>
   )

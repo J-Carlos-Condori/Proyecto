@@ -6,7 +6,8 @@
     "categoria": "Accion",
     "precio":2000,
     "portada":"https://image.tmdb.org/t/p/w500//uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg",
-    "general":"Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man."
+    "general":"Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.",
+    "stock":100
     
   },
   {
@@ -16,7 +17,8 @@
     "categoria": "Comedia",
     "precio":850,
     "portada":"https://image.tmdb.org/t/p/w500//6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
-    "general":"Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no está solo, le ayudará Tails."
+    "general":"Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no está solo, le ayudará Tails.",
+    "stock":40
   },
   {
     "id": 3,
@@ -25,7 +27,8 @@
     "categoria": "Terror",
     "precio":1230,
     "portada":"https://image.tmdb.org/t/p/w500//yoAKHpveZ4Z1wwwXoD31dXj3H8s.jpg",
-    "general":"Cuatro años después de los eventos de Halloween en 2018, Laurie ha decidido liberarse del miedo y la ira y abrazar la vida. Pero cuando un joven es acusado de matar a un niño que estaba cuidando, se enciende una cascada de violencia y terror que obligará a Laurie a enfrentarse finalmente al mal que no puede controlar, de una vez por todas."
+    "general":"Cuatro años después de los eventos de Halloween en 2018, Laurie ha decidido liberarse del miedo y la ira y abrazar la vida. Pero cuando un joven es acusado de matar a un niño que estaba cuidando, se enciende una cascada de violencia y terror que obligará a Laurie a enfrentarse finalmente al mal que no puede controlar, de una vez por todas.",
+    "stock":6
   },
   {
     "id": 4,
@@ -34,7 +37,8 @@
     "categoria": "Comedia",
     "precio":885,
     "portada":"https://image.tmdb.org/t/p/w500//neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
-    "general":"Una solitaria novelista romántica de gira con el modelo de la portada de su último libro se ve envuelta en un intento de secuestro que llevará a ambos a una feroz aventura en la jungla."
+    "general":"Una solitaria novelista romántica de gira con el modelo de la portada de su último libro se ve envuelta en un intento de secuestro que llevará a ambos a una feroz aventura en la jungla.",
+    "stock":9
   },
   {
     "id": 5,
@@ -43,7 +47,8 @@
       "categoria": "Comedia",
       "precio":900,
       "portada":"https://image.tmdb.org/t/p/w500//aHTUpo45qy9QYIOnVITGGqLoVcA.jpg",
-      "general":"Dos ambiciosos -pero con poca fortuna- agentes del FBI de color (Shawn y Marlon Wayans) se hacen pasar por mujeres, novatas en la alta sociedad, en el exclusivo complejo Hamptons para investigar un círculo de secuestros. Pero mientras preparan su actuación en el mayor acontecimiento social del año se encuentran que irrumpir en la alta sociedad es mucho más duro de lo que parecía."
+      "general":"Dos ambiciosos -pero con poca fortuna- agentes del FBI de color (Shawn y Marlon Wayans) se hacen pasar por mujeres, novatas en la alta sociedad, en el exclusivo complejo Hamptons para investigar un círculo de secuestros. Pero mientras preparan su actuación en el mayor acontecimiento social del año se encuentran que irrumpir en la alta sociedad es mucho más duro de lo que parecía.",
+      "stock":8
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "categoria": "Comedia",
       "precio":330,
       "portada":"https://image.tmdb.org/t/p/w500//bkjPoisqAavXUvtoirxTEcLLQyI.jpg",
-      "general":"Un padre encuentra tiempo para sí mismo por primera vez en años mientras su esposa e hijos están fuera. Vuelve a conectar con un amigo para pasar un fin de semana salvaje."
+      "general":"Un padre encuentra tiempo para sí mismo por primera vez en años mientras su esposa e hijos están fuera. Vuelve a conectar con un amigo para pasar un fin de semana salvaje.",
+      "stock":7
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "categoria": "Estrenos",
       "precio":1000,
       "portada":"https://image.tmdb.org/t/p/w500//3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
-      "general":"Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses -y encarcelado con la misma rapidez-, Black Adam es liberado de su tumba terrenal, listo para desatar su forma única de justicia en el mundo moderno."
+      "general":"Casi 5.000 años después de haber sido dotado de los poderes omnipotentes de los antiguos dioses -y encarcelado con la misma rapidez-, Black Adam es liberado de su tumba terrenal, listo para desatar su forma única de justicia en el mundo moderno.",
+      "stock":22
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "categoria": "Estrenos",
       "precio":990,
       "portada":"https://image.tmdb.org/t/p/w500//sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
-      "general":"La reina Ramonda, Shuri, MBaku, Okoye y las Dora Milaje, luchan para proteger su nación de la injerencia de potencias mundiales a raíz de la muerte del rey T’Challa. Mientras los wakandianos se esfuerzan por adaptarse a su nueva etapa, los héroes deben actuar unidos, con la ayuda del Perro de la Guerra Nakia y Everett Ross, y forzar un nuevo destino para el reino de Wakanda."
+      "general":"La reina Ramonda, Shuri, MBaku, Okoye y las Dora Milaje, luchan para proteger su nación de la injerencia de potencias mundiales a raíz de la muerte del rey T’Challa. Mientras los wakandianos se esfuerzan por adaptarse a su nueva etapa, los héroes deben actuar unidos, con la ayuda del Perro de la Guerra Nakia y Everett Ross, y forzar un nuevo destino para el reino de Wakanda.",
+      "stock":25
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "categoria": "Estrenos",
       "precio":1330,
       "portada":"https://image.tmdb.org/t/p/w500//pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
-      "general":"El Dios del Trueno emprende un viaje que no se parece en nada a lo que se ha enfrentado hasta ahora: una búsqueda de la paz interior. Pero el retiro de Thor se ve interrumpido por un asesino galáctico conocido como Gorr el Carnicero de Dioses. Para hacer frente a la amenaza, Thor solicita la ayuda de Valkiria, de Korg y de su ex novia Jane Foster que, para sorpresa de Thor, empuña su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una aventura cósmica en la que tendrán que descubrir el misterio de la venganza del Carnicero de Dioses y detenerlo antes de que sea demasiado tarde."
+      "general":"El Dios del Trueno emprende un viaje que no se parece en nada a lo que se ha enfrentado hasta ahora: una búsqueda de la paz interior. Pero el retiro de Thor se ve interrumpido por un asesino galáctico conocido como Gorr el Carnicero de Dioses. Para hacer frente a la amenaza, Thor solicita la ayuda de Valkiria, de Korg y de su ex novia Jane Foster que, para sorpresa de Thor, empuña su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una aventura cósmica en la que tendrán que descubrir el misterio de la venganza del Carnicero de Dioses y detenerlo antes de que sea demasiado tarde.",
+      "stock":4
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "categoria": "Accion",
       "precio":860,
       "portada":"https://image.tmdb.org/t/p/w500//62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
-      "general":"Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete Maverick Mitchell se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw, el hijo de su difunto amigo Goose."
+      "general":"Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete Maverick Mitchell se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw, el hijo de su difunto amigo Goose.",
+      "stock":9
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "categoria": "Accion",
       "precio":970,
       "portada":"https://image.tmdb.org/t/p/w500//tVxDe01Zy3kZqaZRNiXFGDICdZk.jpg",
-      "general":"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final."
+      "general":"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final.",
+      "stock":8
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "categoria": "Accion",
       "precio":1990,
       "portada":"https://image.tmdb.org/t/p/w500//kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
-      "general":"Cuatro años después de la destrucción de Isla Nublar, los dinosaurios conviven – y cazan – con los seres humanos en todo el mundo. Este frágil equilibrio cambiará el futuro y decidirá, de una vez por todas, si los seres humanos seguirán en la cúspide de los depredadores en un planeta que comparten con los animales más temibles de la creación."
+      "general":"Cuatro años después de la destrucción de Isla Nublar, los dinosaurios conviven – y cazan – con los seres humanos en todo el mundo. Este frágil equilibrio cambiará el futuro y decidirá, de una vez por todas, si los seres humanos seguirán en la cúspide de los depredadores en un planeta que comparten con los animales más temibles de la creación.",
+      "stock":11
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "categoria": "Estrenos",
       "precio":950,
       "portada":"https://image.tmdb.org/t/p/w500//g8sclIV4gj1TZqUpnL82hKOTK3B.jpg",
-      "general":"Versión en acción real del aclamado cuento sobre una marioneta que se embarca en una trepidante aventura para convertirse en un niño de verdad. La historia también presenta a otros personajes, como Gepetto, el carpintero que fabrica a Pinocho y lo trata como a su propio hijo; Pepito Grillo, que hace las veces de guía y “conciencia” de Pinocho; el Hada Azul; el Honrado Juan; la gaviota Sofía, y el cochero."
+      "general":"Versión en acción real del aclamado cuento sobre una marioneta que se embarca en una trepidante aventura para convertirse en un niño de verdad. La historia también presenta a otros personajes, como Gepetto, el carpintero que fabrica a Pinocho y lo trata como a su propio hijo; Pepito Grillo, que hace las veces de guía y “conciencia” de Pinocho; el Hada Azul; el Honrado Juan; la gaviota Sofía, y el cochero.",
+      "stock":22
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "categoria": "Comedia",
       "precio":885,
       "portada":"https://image.tmdb.org/t/p/w500//kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-      "general":"Un grupo de super villanos se encuentran encerrados en Belle Reve, una prisión de alta seguridad con la tasa de mortalidad más alta de Estados Unidos. Para salir de allí harán cualquier cosa, incluso unirse al grupo Task Force X, dedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Waller. Fuertemente armados son enviados a la isla Corto Maltese, una jungla repleta de enemigos."
+      "general":"Un grupo de super villanos se encuentran encerrados en Belle Reve, una prisión de alta seguridad con la tasa de mortalidad más alta de Estados Unidos. Para salir de allí harán cualquier cosa, incluso unirse al grupo Task Force X, dedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Waller. Fuertemente armados son enviados a la isla Corto Maltese, una jungla repleta de enemigos.",
+      "stock":17
     }
     ,
     {
@@ -134,7 +148,8 @@
       "categoria": "Comedia",
       "precio":3000,
       "portada":"https://image.tmdb.org/t/p/w500//iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
-      "general":"Hace mucho, mucho tiempo, en una lejanísima ciénaga vivía un intratable ogro llamado Shrek. Pero de repente, un día, su absoluta soledad se ve interrumpida por una invasión de sorprendentes personajes de cuento. Hay ratoncitos ciegos en su comida, un enorme y malísimo lobo en su cama, tres cerditos sin hogar y otros muchos seres increíbles que han sido deportados de su reino por el malvado Lord Farquaad. Para conseguir salvar su terreno, y de paso a sí mismo, Shrek hace un pacto con Farquaad y emprende viaje para conseguir que la preciosa princesa Fiona sea la novia del Lord. En tan importante misión le acompañan un burro chistoso, dispuesto a hacer cualquier cosa por Shrek. Todo, menos estarse calladito. Rescatar a la princesa de una dragona enamoradiza que suelta fuego al respirar va a resultar una tontería comparado con lo que ocurre cuando el oscuro secreto que la joven guardaba es revelado."
+      "general":"Hace mucho, mucho tiempo, en una lejanísima ciénaga vivía un intratable ogro llamado Shrek. Pero de repente, un día, su absoluta soledad se ve interrumpida por una invasión de sorprendentes personajes de cuento. Hay ratoncitos ciegos en su comida, un enorme y malísimo lobo en su cama, tres cerditos sin hogar y otros muchos seres increíbles que han sido deportados de su reino por el malvado Lord Farquaad. Para conseguir salvar su terreno, y de paso a sí mismo, Shrek hace un pacto con Farquaad y emprende viaje para conseguir que la preciosa princesa Fiona sea la novia del Lord. En tan importante misión le acompañan un burro chistoso, dispuesto a hacer cualquier cosa por Shrek. Todo, menos estarse calladito. Rescatar a la princesa de una dragona enamoradiza que suelta fuego al respirar va a resultar una tontería comparado con lo que ocurre cuando el oscuro secreto que la joven guardaba es revelado.",
+      "stock":32
     },
     {
         "id": 16,
@@ -143,7 +158,8 @@
         "categoria": "Terror",
         "precio":100,
         "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wcnLlfQ2USwvyYbd6XgtNEOQfMT.jpg",
-        "general":"El Dr. Malcom Crowe es un conocido psicólogo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cole Sear es un aterrorizado y confuso niño de ocho años que necesita tratamiento, y Crowe ve la oportunidad de redimirse haciendo todo lo posible por ayudarle. Sin embargo, el psicólogo infantil no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados."
+        "general":"El Dr. Malcom Crowe es un conocido psicólogo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cole Sear es un aterrorizado y confuso niño de ocho años que necesita tratamiento, y Crowe ve la oportunidad de redimirse haciendo todo lo posible por ayudarle. Sin embargo, el psicólogo infantil no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados.",
+        "stock":28
       },
       {
         "id": 17,
@@ -152,7 +168,8 @@
         "categoria": "Accion",
         "precio":500,
         "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hNcQAuquJxTxl2fJFs1R42DrWcf.jpg",
-        "general":"Jules y Vincent, dos asesinos a sueldo con muy pocas luces, trabajan para Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín."
+        "general":"Jules y Vincent, dos asesinos a sueldo con muy pocas luces, trabajan para Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín.",
+        "stock":29
       },
       {
         "id": 18,
@@ -161,7 +178,8 @@
         "categoria": "Terror",
         "precio":300,
         "portada":"https://image.tmdb.org/t/p/w500//zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
-        "general":"Secuela de la exitosa 'Expediente Warren' (2013), que lleva de nuevo a la pantalla otro caso real de los expedientes de los renombrados demonólogos Ed y Lorraine Warren. En este caso ambos viajarán al norte de Londres para ayudar a una madre soltera que tiene a su cargo cuatro hijos y que vive sola con ellos en una casa plagada de espíritus malignos."
+        "general":"Secuela de la exitosa 'Expediente Warren' (2013), que lleva de nuevo a la pantalla otro caso real de los expedientes de los renombrados demonólogos Ed y Lorraine Warren. En este caso ambos viajarán al norte de Londres para ayudar a una madre soltera que tiene a su cargo cuatro hijos y que vive sola con ellos en una casa plagada de espíritus malignos.",
+        "stock":30
       },
       {
         "id": 19,
@@ -170,7 +188,8 @@
         "categoria": "Accion",
         "precio":430,
         "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zLQG9fqH01f8eFRAaSUJY7va92x.jpg",
-        "general":"Adaptación del cómic de Frank Miller (autor del cómic 'Sin City') sobre la famosa batalla de las Termópilas (480 a.C.). El objetivo de Jerjes, emperador de Persia, era la conquista de Grecia, lo que desencadenó las Guerras Médicas. Dada la gravedad de la situación, el rey Leónidas de Esparta (Gerard Butler) y 300 espartanos se enfrentaron a un ejército persa que era inmensamente superior."
+        "general":"Adaptación del cómic de Frank Miller (autor del cómic 'Sin City') sobre la famosa batalla de las Termópilas (480 a.C.). El objetivo de Jerjes, emperador de Persia, era la conquista de Grecia, lo que desencadenó las Guerras Médicas. Dada la gravedad de la situación, el rey Leónidas de Esparta (Gerard Butler) y 300 espartanos se enfrentaron a un ejército persa que era inmensamente superior.",
+        "stock":14
       },
       {
         "id": 20,
@@ -179,7 +198,8 @@
         "categoria": "Terror",
         "precio":260,
         "portada":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8FdQQ3cUCs9goEOr1qUFaHackoJ.jpg",
-        "general":"El FBI busca a 'Buffalo Bill', un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo recurren a Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado a Hannibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta de 'Buffalo Bill'."
+        "general":"El FBI busca a 'Buffalo Bill', un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo recurren a Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado a Hannibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta de 'Buffalo Bill'.",
+        "stock":8
       }
   ]
   

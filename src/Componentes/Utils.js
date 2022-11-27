@@ -31,7 +31,7 @@ export const getPeliculaId = (id) => {
     let pedidoPeliculas = new Promise((response) => {
         setTimeout(() => {
             response(lasPeliculas.find(item => item.id == id));
-        }, 1500);
+        }, 200);
     })
 
     return pedidoPeliculas

@@ -66,7 +66,7 @@ img{
   border-radius: 9px;
   margin: 0px 25rem
 }
-.botonera__compra{
+.botonera__agregar{
   display: flex;
   justify-content: center;
 }
@@ -102,3 +102,5 @@ img{
   color: aliceblue;
 
 }
+
+

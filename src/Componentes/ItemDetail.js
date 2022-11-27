@@ -1,7 +1,18 @@
 import React from "react";
+// import { useCarrito } from "./comprasProvider";
 import ItemCount from "./ItemCount";
 
 const ItemDetail = ({ lasPeliculas }) => {
+
+    // const { agregarProducto } = useCarrito()
+    // const [cantidad, setCantidad] = useState(1)
+    // const [confirmado, setConfirmado] = useState(false)
+
+
+    // const peticionContexto = useContext(useCarrito)
+
+    // const handleOnadd = (cantidad) = {
+    // }
 
 
     return (
@@ -9,6 +20,7 @@ const ItemDetail = ({ lasPeliculas }) => {
             <div className="container-laPelicula">
                 <div className="itemPortada">
                     <img src={lasPeliculas.portada} alt="portada"></img>
+                    <h5>STOCK : {lasPeliculas.stock}</h5>
                 </div>
 
                 <div className="itemTexto">
