@@ -19,12 +19,6 @@ const ComprasProvider = ({ children }) => {
     setTotal(0)
   }
 
-  const agregarCarrito = () => {
-    setCarrito([])
-    setTotal(0)
-  }
-
-
   const valorDelContexto = {
     pelicula: carrito,
     cantitad: total,

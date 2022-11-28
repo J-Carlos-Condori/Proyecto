@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Proyecto Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## `Descripcion`
 
-## Available Scripts
+Proyecto final del curso de **`React.js`**
+Elaboracion de una pagina Ecommerce de peliculas que nos permite simular compras almacenar filtrar e indentificar las peliculas que elijas que se encuentren dentro del catalogo.
 
-In the project directory, you can run:
+## `Instalacion`
 
-### `npm start`
+Para poder utilizar el proyecto previamente debe contar con una terminal/consola de su preferencia dependiendo su sistema operativo, contar con el programa de control de versiones [GIT](https://git-scm.com/downloads) y por ultimo contar con el entorno de ejecucion de [NODE.js](https://nodejs.org/es/download/) (**se recomienda la version LTS**), una con vez estos requisitos debe seguir los siguientes pasos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Abrir su terminal/consola de comandos
+2. Ingrese el el siguiente comando:
+   > git clone https://github.com/J-Carlos-Condori/proyecto-react.git
+3. Podra notar que se creo una carpeta de nombre **proyecto-react**
+4. Para acceder a esta debe ingrasar el siguiente comando:
+   > cd proyecto-react/
+5. Debe instalar el siguiente modulo ingresando este:
+   > npm i react-scripts
+6. Una vez terminado de instalar ingresa este ultimo comando:
+   > npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este comando abrira una pestaña en tu navegador donde pordras visualizar el proyecto y podras hacer prueba de este.
 
-### `npm test`
+## `Tecnologias Usadas`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React.js](https://es.reactjs.org)
+- [React Router](https://reactrouter.com/en/main/start/tutorial)
+- [Materialize](https://materializecss.com)
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [Firebase](https://firebase.google.com/?hl=es)
 
-### `npm run build`
+##`Uso de la pagina`
+Si quieres realizar el uso de la pagina sin realizar la **`INSTALACION`** puedes hacerlo entrando en el [enlace.](https://ecommerce-react-3w5bpw2d4-j-carlos-condori.vercel.app)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Precionando en "Listado" podras encontrar el listado completo de las peliculas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![imagen1](/imagenes/listadocompleto.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###Precionando en alguna de las categorias que se encuentran al lado de "Listado" podras acceder al listado de peliculas segun la categoria seleccionada.
 
-### `npm run eject`
+![imagen1](/imagenes/listadoconsecciones.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###Precionando en alguna carta de alguna pelicula podras acceder a una seccion donde podras ver una breve descripcion de la pelicula
+![imagen1](/imagenes/detalleporpelicula.png)

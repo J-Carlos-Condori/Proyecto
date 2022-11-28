@@ -12,10 +12,8 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     if (cat) {
-      console.log("EFECTO con categoria")
       getProductsByCategory(cat)
         .then(respuesta => {
-          console.table(respuesta, cat)
           setItems(respuesta)
         })
         .catch((error) => {
@@ -26,7 +24,6 @@ const ItemListContainer = () => {
 
       getProducts()
         .then((respuesta) => {
-          console.log(respuesta)
           setItems(respuesta)
         })
         .catch((error) => {
