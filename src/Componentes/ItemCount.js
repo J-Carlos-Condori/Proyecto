@@ -11,12 +11,9 @@ const ItemCount = () => {
   const handleSumar = () => setCount(count + 1);
   const handleRestar = () => count === 1 ? setCount(count) : setCount(count - 1);
 
-
-
-
   const handleAgregarCarrito = () => {
 
-    console.log(valorDelContexto.cantidad)
+    console.log(valorDelContexto)
   }
 
   return (
