@@ -1,20 +1,26 @@
-import React, { useContext, useState } from 'react'
-import { contexto } from './ComprasProvider';
+import React, { useState } from 'react'
 
-const ItemCount = () => {
+const ItemCount = ({ init, handleOnAdd }) => {
 
 
-  const valorDelContexto = useContext(contexto)
 
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(init);
 
-  const handleSumar = () => setCount(count + 1);
-  const handleRestar = () => count === 1 ? setCount(count) : setCount(count - 1);
-
-  const handleAgregarCarrito = () => {
-
-    console.log(valorDelContexto)
+  const handleSumar = () => {
+    console.log("estoy sumando")
+    setCount(count + 1);
   }
+  const handleRestar = () => {
+    console.log("estoy restando")
+    count == 1 ? setCount(count) : setCount(count - 1);
+  }
+
+  const handleAgregar = () => {
+
+    handleOnAdd(count)
+
+  }
+
 
   return (
     <div className="botonera">
@@ -24,7 +30,7 @@ const ItemCount = () => {
         <button className='boton' onClick={handleSumar}>+</button>
       </div>
       <div className="botonera__agregar">
-        <button className='boton' onClick={handleAgregarCarrito}>AGREGAR AL CARRITO</button>
+        <button className='boton' onClick={handleAgregar}>agregar</button>
       </div>
     </div>
   )

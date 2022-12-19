@@ -1,9 +1,9 @@
 import React from "react";
 import ItemListContainer from "./ItemListContainer";
 import { Route, Routes } from "react-router-dom";
-import Carrito from "./Carrito";
 import Cuenta from "./Cuenta";
 import ItemDetailContainer from "./ItemDetailContainer";
+import CarritoContainer from "./CarritoContainer";
 
 export const Main = () => {
   return (
@@ -23,7 +23,7 @@ export const Main = () => {
           <Route path="/item/:id" element={<ItemDetailContainer />} />
 
           <Route path="/Mi_Cuenta" element={<Cuenta />} />
-          <Route path="/Cart" element={<Carrito />} />
+          <Route path="/Cart" element={<CarritoContainer />} />
 
           <Route path="*" element={<h1>Error 404</h1>} />
         </Routes>

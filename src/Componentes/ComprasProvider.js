@@ -1,36 +1,71 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useState } from 'react'
 
 
-export const contexto = createContext()
-const { Provider } = contexto
+export const DatosContexto = createContext();
 
-export const useCarrito = () => {
-  return useContext(contexto)
-}
+const { Provider } = DatosContexto;
 
-const ComprasProvider = ({ children }) => {
+export const ComprasProvider = ({ children }) => {
 
   const [carrito, setCarrito] = useState([])
   const [total, setTotal] = useState(0)
+  const [cantidadtotal, setCantidadtotal] = useState(0)
 
 
-  const vaciarCarrito = () => {
+  const vaciar = () => {
     setCarrito([])
     setTotal(0)
+    setCantidadtotal(0)
+  }
+
+
+  const agregar = (lasPeliculas, cantidad) => {
+
+    if (isInCart.inCart) {
+
+      setCarrito(carrito.map((pelicula) => {
+
+        if (pelicula.id === isInCart.id) {
+          return { ...isInCart, cantidad: isInCart.cantidad + cantidad }
+        } else return pelicula
+      }))
+
+    } else {
+
+
+      setCarrito([
+        ...carrito,
+        {
+          ...lasPeliculas, cantidad
+        }
+      ])
+      setTotal(total + lasPeliculas.precio * cantidad)
+      setCantidadtotal(cantidadtotal + cantidad)
+    }
+
+
+  }
+
+
+  const isInCart = (id) => {
+    return { inCart: false, item: {}, index: 0 }
   }
 
   const valorDelContexto = {
-    pelicula: carrito,
-    cantitad: total,
-    vaciarCarrito: vaciarCarrito
+    peliculasagregadas: carrito,
+    cantidad: total,
+    cantidadtotal: cantidadtotal,
+
+
+    vaciar: vaciar,
+    agregar: agregar
   }
 
   return (
     <Provider value={valorDelContexto}>
       {children}
     </Provider>
-  )
+  );
 }
-
 
 export default ComprasProvider

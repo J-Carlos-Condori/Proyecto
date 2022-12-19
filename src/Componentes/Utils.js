@@ -7,7 +7,7 @@ export const getProducts = () => {
     let pedidoPeliculas = new Promise((response) => {
         setTimeout(() => {
             response(lasPeliculas);
-        }, 1500);
+        }, 500);
     })
 
     return pedidoPeliculas
@@ -19,7 +19,7 @@ export const getProductsByCategory = (categoria) => {
     let pedidoPeliculas = new Promise((response) => {
         setTimeout(() => {
             response(lasPeliculas.filter(item => item.categoria == categoria));
-        }, 1500);
+        }, 500);
     })
 
     return pedidoPeliculas

@@ -1,18 +1,27 @@
-import React from "react";
-// import { useCarrito } from "./comprasProvider";
+import React, { useContext, useState } from "react";
+import { DatosContexto } from "./ComprasProvider";
 import ItemCount from "./ItemCount";
 
+
 const ItemDetail = ({ lasPeliculas }) => {
+    const { agregar } = useContext(DatosContexto)
 
-    // const { agregarProducto } = useCarrito()
-    // const [cantidad, setCantidad] = useState(1)
-    // const [confirmado, setConfirmado] = useState(false)
+    const [cantidad, setCantidad] = useState(1)
+    const [confirmado, setConfirmado] = useState(false)
 
 
-    // const peticionContexto = useContext(useCarrito)
+    const handleOnAdd = (cantidad) => {
 
-    // const handleOnadd = (cantidad) = {
-    // }
+        console.log("se agregaron " + cantidad + " productos")
+        console.log(lasPeliculas)
+        setCantidad(cantidad)
+        setConfirmado(true)
+
+    }
+
+    const handleClick = () => {
+        agregar(lasPeliculas, cantidad)
+    }
 
 
     return (
@@ -25,12 +34,12 @@ const ItemDetail = ({ lasPeliculas }) => {
 
                 <div className="itemTexto">
                     <h2>{lasPeliculas.nombre}</h2>
-
-
-
                     <h5>{lasPeliculas.precio}$</h5>
                     <p>{lasPeliculas.general}</p>
-                    <ItemCount />
+                    <ItemCount init={cantidad} handleOnAdd={handleOnAdd} />
+
+                    {confirmado && <button className='boton' onClick={handleClick}>Finalizar Compra</button>}
+
                 </div>
             </div>
         </div>

@@ -1,18 +1,16 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { contexto } from "./ComprasProvider";
-
+import { DatosContexto } from "./ComprasProvider";
 
 const CartWidget = () => {
 
-  const peticion = useContext(contexto)
-
-
+  const valorcontexto = useContext(DatosContexto)
+  console.log(valorcontexto.cantidad, "dentro del cart")
   return (
     <div className="carritoWidget">
       <Link to="/cart" className="waves-effect">
         <span className="material-icons">shopping_cart</span>
-        <span>{peticion.cantitad}</span>
+        <span>{valorcontexto.cantidadtotal}</span>
       </Link>
     </div>
   )
